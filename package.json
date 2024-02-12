@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "learning backend with chai and code",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/index.js"
   },
   "keywords": [
     "mongoose",
@@ -12,5 +14,10 @@
     "eraser"
   ],
   "author": "Rohan Jadhav",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "nodemon": "^3.0.3"
+  }
 }

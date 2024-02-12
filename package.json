@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "mongoose",
@@ -19,5 +19,8 @@
     "-": "^0.0.1",
     "D": "^1.0.0",
     "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }

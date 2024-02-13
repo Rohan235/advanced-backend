@@ -16,4 +16,12 @@ app.use(express.static("public"))
 // parse url encoded data with the query string parser
 
 app.use(cookieParser())
+
+//routers declaration
+import userRouter from "../routes/user.routes.js"
+
+app.use("/api/v1/users" , userRouter)
+//https://localhost:8000/api.v1/users/register
+
+
 export {app}

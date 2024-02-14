@@ -6,3 +6,7 @@ const asyncHandler = (requestHandler) => {
 
 
 export { asyncHandler }
+
+//This pattern allows you to write route handlers without explicitly handling asynchronous errors 
+// using try/catch blocks in each handler. Instead, you can wrap your asynchronous handlers with asyncHandler
+//  to handle errors centrally.

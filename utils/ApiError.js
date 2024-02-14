@@ -21,3 +21,9 @@ class ApiError extends Error {
  
 }
  export{ApiError}
+
+ //
+// The ApiError class is used to create structured error objects in an Express.js application.
+//  It extends the built-in Error class and includes properties such as statusCode, message, errors, and success.
+//   It captures the stack trace of errors and is useful for handling and communicating 
+//   error conditions between the backend and frontend of the application.

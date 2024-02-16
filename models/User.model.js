@@ -18,23 +18,13 @@ const userSchema  = new Schema ({
         lowercase  :true,
         trim : true,
     },
-    fullname : {
-        type:String,
-        required  : true, 
-        trim : true,
-        index : true
-    },
+   
     avatar:{
         type : String ,//cloudnary url
         required : true
     },
-    coverImage:{
-        type : String
-    },
-    watchHistory:{
-        type: Schema.Types.ObjectId,
-        ref :"Video"
-    },
+   
+   
     password : {
         type: String,
         required : [true, "password is required"]  //standard practice of encryption
